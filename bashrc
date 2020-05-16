@@ -5,9 +5,9 @@
 
 # Export proxy to be able to connect with resources on internet.
 # This must be replaced with sub.proxy.att.com but that doesnt work properly.
-export HTTP_PROXY="http://one.proxy.att.com:8080/"
-export HTTPS_PROXY="http://one.proxy.att.com:8080/"
-export NO_PROXY="127.0.0.1,localhost,.att.com"
+export HTTP_PROXY="http://proxy.com:3128/"
+export HTTPS_PROXY="http://proxy.com:3128/"
+export NO_PROXY="127.0.0.1,localhost"
 
 # Updated promt to show only current directory. No clutter makes prompt respond superfast.
 export PS1="\[\e[32m\]\W\[\e[m\]\[\e[37m\]\\$\[\e[m\] "
